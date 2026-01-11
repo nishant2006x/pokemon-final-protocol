@@ -1,4 +1,4 @@
-## This is my first ever serious project ever created, but I made it just for entertainment and did not take into account code organization or effectiveness at that time, therefore please expect this project to be all around messy but still works!
+## This is my first ever serious project ever created (5000+ lines of code), but I made it just for entertainment and did not take into account code organization or effectiveness at that time; therefore, please expect the project's code to be a bit messy.
 
 ## How to Play
 
