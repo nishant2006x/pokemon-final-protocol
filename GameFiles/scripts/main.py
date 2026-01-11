@@ -9,7 +9,7 @@ import install_requirements
 # use the function from the helper file install_requirements
 install_requirements.Install_Reqs()
 
-print("Made by @computererman (Follow me on X: @NishantTheG)\n\nLoading... (This game has 5000+ lines of code!)\n")
+print("Loading... (This game has 5000+ lines of code!)\n")
 import time
 from in_game_data.colortext import *
 import json
