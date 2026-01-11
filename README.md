@@ -25,6 +25,7 @@ The `.bat` (Windows) and `.command` (Mac) launchers are simple text scripts.
 
 
 **UPDATE:** If none of the below work, simply run `main.py` on a valid platform/IDE.
+
 If double-clicking the launcher does not work:
 
 ### On macOS:
