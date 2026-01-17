@@ -538,10 +538,10 @@ def storymode(scene, storyinventory, coins, storyyouPokemon_NAME, storyyourPokem
               input()
               refreshpageascii()
   
-            print2(f"{Carter}: Well {storyNAME}. You are and always will be a DNG. Smell ya later."+"\n")
+            print2(f"{Carter}: Well {storyNAME}. You are and always will be a loser. Smell ya later."+"\n")
             print2(green+f"Carter left."+"\n")
             input()
-            print2(f"{Devore}: Anyways, that was quite the battle and definetly better than the previous two trainers that came in earlier today. {storyNAME}, dont let {Carter}'s words get to you. He clearly seems to be fatherless by the way he acts for his age LOL! Anyways champ, I hope you and {Carter} make Damas Town proud! I have to go talk with your father about my recent Divorce and how I can avoid paying child support, since he is a Poke lawyer! We might drink some wine too to chill. But anyways thats me and my brothers business, you should head to Rocket City next, it is kind of dangerous though so be careful, good luck nephew!"+"\n")
+            print2(f"{Devore}: Anyways, that was quite the battle and definetly better than the previous two trainers that came in earlier today. {storyNAME}, dont let {Carter}'s words get to you. He clearly seems to be in an anger state by the way he acts for his age LOL! Anyways champ, I hope you and {Carter} make Damas Town proud! I have to go now to talk with your father about my ongoing legal battle with the, uhm, don't worry about it, but I believe your father will definetly help me get through this since he is the Pokelawyer in this region! But anyways thats me and my brother's business, you should head to Rocket City next, it is kind of dangerous though so be careful, good luck nephew!"+"\n")
             input()
             print2(f"{storyNAME}: Goodbye Uncle!"+"\n")
             print2(green+f"You left."+"\n")
@@ -612,7 +612,7 @@ def storymode(scene, storyinventory, coins, storyyouPokemon_NAME, storyyourPokem
                     input()
                     print2(magenta+f'{Davidson}: Well according to the Darkrai that IPG uses to spy the dreams of citizens, it seems like yours was the odd one out. You battled a Gastly who belonged to a trainer who was trying to kill you. Then we realized after looking through our human data that he was not of our Galacticverse Union, but from a different one.\n')
                     input()
-                    print2(magenta+f'{Davidson}: We have identified him as Intruder8472, and he alone has killed a million of our citizens alone, and we have been looking for him for the last year. We are not sure of which enemy Union he belongs to, or how he got here. But it seems like you are the only person who has physically witnessed him. {storyNAME}, when you were sleeping, your body was fluctuating and was hologramic, which according to our sciences means that you were in a different dimension at that time. You were physically battling Intruder8472.\n')
+                    print2(magenta+f'{Davidson}: We have identified him as Intruder8472, and he alone has killed a million of our citizens alone, and we have been looking for him for the past year. We are not sure of which enemy Union he belongs to, or how he got here. But it seems like you are the only person who has physically witnessed him. {storyNAME}, when you were sleeping, your body was fluctuating and was hologramic, which according to our sciences means that you were in a different dimension at that time. You were physically battling Intruder8472.\n')
                     input()
                     print2(green+f'{storyNAME}: What about my Pokemon? My starter Pokemon is the same Pokemon that was defending me in this dimension.\n')
                     input()
@@ -624,7 +624,7 @@ def storymode(scene, storyinventory, coins, storyyouPokemon_NAME, storyyourPokem
                       urPokemon = 'Bulbasaur'
                     elif 'Pichu' in storyinventory:
                       urPokemon = 'Pichu'
-                    print2(magenta+f'{Davidson}: And thats the main reason I am here today. {storyNAME}, unfortunely I am required to confiscate your {urPokemon}. He is not from this dimension, it seems like all the starter Pokemons that were given in DAMAS Town are not from our Galacticverse. Our authorities have already detained Dr. Devore, your uncle, as a suspect and have confiscated the Pokemon of the 3 other trainers today that came from Damas, including someone you may know, Carter.\n')
+                    print2(magenta+f'{Davidson}: And thats the main reason I am here today. {storyNAME}, unfortunely I am required to confiscate your {urPokemon}. He is not from this dimension, it seems like all the starter Pokemons that were given in DAMAS Town are not from our Galacticverse. Our authorities have just now detained Dr. Devore, your uncle, as a suspect and have confiscated the Pokemon of the 3 other trainers today that came from Damas, including someone you may know, Carter.\n')
                     input()
                    
                     break
@@ -784,7 +784,7 @@ def storymode(scene, storyinventory, coins, storyyouPokemon_NAME, storyyourPokem
                 input()
                 print2(green+f'{Davidson}: And as an compensation, you will recieve an evolved form of your starter Pokemon.\n')
                 print2(green+f"You got {kkkkk}!"+"\n")
-                print2(green+f'{Davidson}: Have a good day, {storyNAME}. Damas Town will be alright if they are innocent.\n')
+                print2(green+f'{Davidson}: Have a good day, {storyNAME}. Your uncle and peers will be alright if they are truly innocent. May justice be served. Peace.\n')
                 input()
                 break                
               elif xik == '3':
