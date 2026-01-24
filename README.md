@@ -7,7 +7,7 @@
   ```bash
   pip install -r requirements.txt
   ```
-- Step 3: Simply run `GameFiles/scripts/main.py` on a valid platform/IDE! Otherwise:
+- Step 3: Simply run `GameFiles/scripts/main.py` on a valid platform/IDE! Otherwise, open the game folder and...
   
     - Run on Windows (Command Prompt / PowerShell):
       ```bash
