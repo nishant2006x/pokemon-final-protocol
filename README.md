@@ -8,13 +8,13 @@
   pip install -r requirements.txt
   ```
 - Step 3: Simply run `GameFiles/scripts/main.py` on a valid platform/IDE!
-- OR Run on Windows (Command Prompt / PowerShell):
-  ```bash
-  cd GameFiles\scripts
-  python main.py
-  ```
-- OR Run on Mac (Terminal):
-  ```bash
-  cd GameFiles/scripts
-  python3 main.py
-  ```
+  - OR Run on Windows (Command Prompt / PowerShell):
+    ```bash
+    cd GameFiles\scripts
+    python main.py
+    ```
+  - OR Run on Mac (Terminal):
+    ```bash
+    cd GameFiles/scripts
+    python3 main.py
+    ```
