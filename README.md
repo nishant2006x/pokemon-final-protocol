@@ -2,7 +2,7 @@
 
 ## How to Play
 
-- Simply run `main.py` on a valid platform/IDE.
+- Simply run `GameFiles/scripts/main.py` on a valid platform/IDE.
 - Make sure Python 3 is installed.
 - If dependencies are missing, run:
   ```bash
