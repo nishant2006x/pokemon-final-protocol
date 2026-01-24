@@ -2,12 +2,12 @@
 
 ## How to Play
 
-- 1. Make sure Python 3 is installed.
-- 2. If dependencies are missing, run:
+- Make sure Python 3 is installed.
+- If dependencies are missing, run:
   ```bash
   pip install -r requirements.txt
   ```
-- 3. Simply run `GameFiles/scripts/main.py` on a valid platform/IDE!
+- Simply run `GameFiles/scripts/main.py` on a valid platform/IDE!
 - OR Run on Windows (Command Prompt / PowerShell):
   ```bash
   cd GameFiles\scripts
