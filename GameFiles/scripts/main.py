@@ -219,12 +219,59 @@ def battle(odds, enemyPokemon_Selected, OpponentName, yourPokemonSTORYONLY, coin
 
       if OpponentName == False:
         def generate_random_player_name():
-          prefixes = ["Bug Catcher", "Pokemon Lover", "Pokemon Trainer", "Team Rocket Grunt", "Grunt", "Rival", "Professor", "Dr.", "Lady", "Nurse", "Officer", "Robber", "Bird Keeper", "Cameraman", "Dancer", "Scientist", "Boxer", "Baley Dancer", "Corp. CEO", "Corp. President", "Pokemon Fan", "Sleepy", "Typical NPC", "Schoolboy", "Schoolgirl", "Convicted Felon", "Kalos Queen", "Psycho Murderer", "Anonnying Baby", "Tree Lover", "Black Belt", "BJJ Fan", "ESports Gamer", "Strict Cop", "Currupt Politician", "Monk", "Evalangelist", "Gangster", "Escaped Prisoner", "Typical Earthling", "Swimmer", "Athlete", "Super Nerd", "Egoticial Snob", "Typical Bro", "Planter", "Gardener", "Doctor", "City Governer", "Nomad", "Kind Humanitarian", "Angryman", "Angrywoman", "Sweetheart", "Guru", "Archeologist", "Scholar", "Newbie Trainer", "Poketrainer", "Gym Leader", "Elite Trainer", "Digimon Trainer", "Professor", "Ace Trainer", "Battle Legend", "Team Leader", "Gym Challenger", "Pokemon Breeder", "Pokemon Coordinator", "Safari Zone Warden", "Frontier Brain", "Pokemon Ranger", "Pokemon Researcher", "Pokemon Collector", "Team Rocket Grunt", "Team Quasar Grunt", "Colonel"
-]
-          specialPrefixes = ["Pokemon Master", "Regional Champion", "Global Champion", "Elite Four", "Leader", "Admin", "Ohio Final Boss", "Youtuber", "Creator", "Former Champion", "Florida Man", "Australia Final Boss", "President", "King", "Aura Farmer", "Top Dogg", "Queen", "Environmental Activist", "Greek God", "Greek Goddess", "Average Enjoyer", "The Rizzler", "Multiverse Champion", "Pokemon Creator", "Developer", "Last Trainer", "Light-Year Traveler", "Time Traveler", "Final Sakura", "Esports Champion", "Supreme Leader", "Martian", ]
-          suffixes = ["Lan", "Green", "Austin", "Carter", "Iyer", "Ivor", "James", "Jacob", "Felipe", "Scott", "Aarav", "Yashmail", "Freon", "Jesse", "Ithica", "Mary", "Luna", "Maria", "Nishant", "Ken", "Farid", "Alexis", "Luciana", "Edwards", "Sakura", "Imran", "Alferd", "Vladmir", "Singh", "Joe", "Jenny", "Shea", "Matt", "Chad", "Tyson", "Mike", "Jordan", "Lebron", "Kobe", "Lee-Hung", "Mohammad", "Hussien", "Byung-Hun", "Yamada", "Joeseph", "Cornelius", "Vide", "Natasha", "Ben", "Matep", "Zorga", "Salman", "Solomon", "Thomas", "Hesus", "William", "Bill", "Yetus", "Alan", "Mary", "Ella", "Sarah", "Eugene", "Edwards", "Dan", "Ashley", "Vlodemhir", "Georgia", "Luciana", "Lucy", "Pearl", "Diamond", "Scarlet", "Pearl", "Ruby", "Sapphire", "Karen", "Emerald", "Aseenee", "Pocoman", "Bella", "Fukumina", "Sumatra", "Ruby", "Artep", "Mansinlla", "Artilah", "Kaur", "Asli", "Elif", "Said", "Roxelana", "Zehra", "Mustafa", "Kemal", "Akio", "Emi", "Ravi", "Anjali", "Santiago", "Amara", "Yasir", "Mariam", "Zain", "Amina", "Ramon", "Nina", "Faisal", "Farida", "Luca", "Giulia", "Satoshi", "Hanah", "Arjun", "Priya", "Nabil", "Amina", "Luigi", "Giovanna", "Hassan", "Fatima", "Ibrahim", "Leila", "Javier", "Elena", "Kenta", "Yuki", "Mikhail", "Svetlana", "Raul", "Carmen", "Aditya", "Aishwarya", "Gabriel", "Isabel", "Hiroshi", "Yui", "Anton", "Natalia", "Fadi", "Layla", "Renato", "Giulia", "Vikram", "Connor", "Emma", "Liam", "Olivia", "Mason", "Ava", "Noah", "Sophia", "Ethan", "Isabella", "Caleb", "Mia", "Logan", "Amelia", "Aiden", "Harper", "Jackson", "Evelyn", "Lucas", "Abigail", "Jack", "Emily", "Carter", "Charlotte", "William", "Scarlett", "Henry", "Grace", "Owen", "Lily", "Wyatt", "Chloe", "James", "Avery", "Benjamin", "Ella", "Samuel", "Madison", "Alexander", "Elizabeth", "Michael", "Layla", "Elijah", "Nora", "Daniel", "Hannah", "Matthew", "Addison", "Oliver", "Lillian", "Sebastian", "Victoria", "Joseph", "Aubrey", "David", "Paisley", "Andrew", "Brooklyn", "John", "Zoey", "Gabriel", "Natalie", "Jonathan", "Hazel", "Nicholas", "Aria", "Dylan", "Aurora", "Ryan", "Stella", "Nathan", "Nova", "Isaac", "Penelope", "Thomas", "Claire", "Luke", "Luna", "Christopher", "Eleanor", "Julian", "Skylar", "Isaiah", "Sadie", "Christian", "Allison", "Levi", "Lucy","Ling", "Xiu", "Mei", "Yan", "Li", "Hui", "Ying", "Jing", "Fang", "Qian", "Xia", "Wei", "Rui", "Jia", "Yun", "Xinyi", "Lin", "Zhen", "Hong", "Lan", "Qing", "Xiaoli", "Yujie", "Yue", "Lihua", "Lena", "Mia", "Sophie", "Emma", "Hannah", "Anna", "Laura", "Lea", "Lina", "Julia", "Clara", "Emilia", "Charlotte", "Mila", "Marie", "Johanna", "Paula", "Amelie", "Fiona", "Alina", "Isabella", "Eva", "Lara", "Lisa", "Victoria", "Felix", "Lukas", "Maximilian", "Leon", "Luca", "Benjamin", "Paul", "Jonas", "Elias", "Simon", "Nico", "Anton", "Mats", "Fabian", "Tim", "Philipp", "Moritz", "Johannes", "Julian", "David", "Noah", "Eric", "Tom", "Alexander", "Daniel","Aarav", "Rohan", "Arjun", "Vikram", "Ravi", "Kiran", "Aniket", "Arya", "Amit", "Ishaan", "Zayn", "Imran", "Aadil", "Amitabh", "Rajat", "Vivek", "Rajiv", "Kunal", "Dev", "Aarush", "Varun", "Rahul", "Harish", "Nikhil", "Siddharth","Aisha", "Priya", "Ananya", "Kavya", "Ishita", "Pooja", "Neha", "Sakshi", "Meera", "Diya", "Zara", "Nina", "Sanjana", "Trisha", "Riya", "Sara", "Jiya", "Lavanya", "Swara", "Ayesha", "Amara", "Nidhi", "Aruna", "Ishika", "Shreya", "Emre", "Enes", "Arda", "Kaan", "Alp", "Batu", "Burak", "Ege", "Cem", "Can", "Deniz", "Eren", "Umut", "Kerem", "Ozan", "Baran", "Doruk", "Tolga", "Yusuf", "Mert", "Selim", "Uğur", "Metin", "Onur", "Orhan","Elif", "Zeynep", "Aslı", "Melis", "Ezgi", "Ceren", "Naz", "Ayşe", "Dilara", "Ece", "Yasmin", "Deniz", "Ela", "Simge", "Selin", "Yagmur", "Beyza", "Hazal", "Pelin", "Sevgi", "Sude", "Gizem", "İrem", "Damla", "Rabia", "Amir", "Laila", "Zayd", "Amina", "Tariq", "Fatima", "Khalid", "Sana", "Ahmed", "Leila", "Jamal", "Nadia", "Yasin", "Yasmin", "Omar", "Zahra", "Ali", "Hana", "Rami", "Farida", "Rashid", "Layla", "Hassan", "Aisha", "Nasir","Kwame", "Nia", "Chijioke", "Amani", "Sekou", "Zara", "Jabari", "Nala", "Sefu", "Ayana", "Oluwaseun", "Kwesi", "Ngozi", "Kofi", "Imani", "Jelani", "Adanna", "Kwabena", "Kamaria", "Jengo", "Zuri", "Kwaku", "Nia", "Jelani", "Asha", "Adidan", "Graden", "Grace", "Ayman", "Armenia",
-]
-          specialSuffixes = ["Red","Gary", "Cynthia", "Lance", "Scaryan", "Ash", "Oak", "Serena", "Satoyu", "Rajih", "Ghandi", "Ali", "Pewdiepie", "Misty", "Blue", "Gold", "Diantha", "Wallace", "Mehmet", "Hesus", "Nemona", "Steven", "Iris", "Leon", "Khamzat", "Seneca", "Socrates", "Andrew", "Trumpet", "Obrahom", "Nas", "Nish", "Obama", "Greta", "Zyzz", "Chestbrah", "Gigachad", "Adonis", "Tristah", "Austin", "Carter", "Elon", "Musk", "MrBeast", "VSauce", "Satya", "Katrina", "Bruce", "Bezos", "Jung", "Jimping", "Khan", "Ishten", "Sasuke", "Yotoshi", "???", "Misty", "Jet"]
+          prefixes = [
+              "Bug Catcher", "Leaf Scout", "Star Trainer", "Friendly Rival",
+              "Village Scholar", "Traveling Healer", "Sky Watcher", "River Guard",
+              "Bird Keeper", "Cameraperson", "Festival Dancer", "Lab Researcher",
+              "Arena Boxer", "Stage Performer", "Company Leader", "Club President",
+              "Pokemon Fan", "Sleepy Wanderer", "Helpful NPC", "School Student",
+              "Forest Friend", "Martial Artist", "Game Enthusiast",
+              "Calm Monk", "Storyteller", "Explorer", "World Traveler",
+              "Swimmer", "Athlete", "Super Nerd", "Chill Buddy",
+              "Plant Lover", "Gardener", "Town Doctor", "City Guide",
+              "Nomad", "Kind Helper", "Cheerful Soul", "Sweetheart",
+              "Wise Guru", "Ancient Scholar", "New Trainer", "PokeTrainer",
+              "Gym Leader", "Elite Trainer", "Monster Trainer",
+              "Ace Trainer", "Battle Legend", "Team Leader",
+              "Gym Challenger", "Pokemon Breeder",
+              "Pokemon Coordinator", "Safari Warden",
+              "Frontier Brain", "Pokemon Ranger",
+              "Pokemon Researcher", "Pokemon Collector",
+              "Space Explorer", "Regional Guard"
+          ]
+
+          specialPrefixes = [
+              "Pokemon Master", "Regional Champion", "Global Champion",
+              "Elite Circle", "Grand Leader", "Master Admin",
+              "Final Boss", "Content Creator",
+              "Former Champion", "World Champion",
+              "Aura Trainer", "Top Challenger",
+              "Royal Champion", "Nature Protector",
+              "Cosmic Hero", "Multiverse Champion",
+              "Pokemon Creator", "Game Developer",
+              "Last Trainer", "Light-Year Traveler",
+              "Time Traveler", "Legendary Champion",
+              "Esports Champion", "Supreme Champion",
+              "Starlight Visitor"
+          ]
+
+          suffixes = [
+              "Aero", "Lumi", "Kiro", "Navi", "Taro", "Mika", "Sora", "Nilo",
+              "Zeni", "Riko", "Ami", "Kasa", "Yori", "Piko", "Vela", "Noa",
+              "Iris", "Elio", "Tavi", "Nera", "Zola", "Kima", "Luma", "Ovi",
+              "Rhea", "Timo", "Fira", "Asha", "Koro", "Melo",
+              "Nova", "Echo", "Sol", "Luna", "River", "Sky",
+              "Ember", "Flora", "Stone", "Cloud", "Ashen", "Bright"
+          ]
+
+          specialSuffixes = [
+              "Redflare", "Bluewave", "Goldleaf", "Silverwind",
+              "Starfall", "Mooncrest", "Sunrise",
+              "Aurora", "Zenith", "Nebula",
+              "Orion", "Aether", "Lumina",
+              "Eclipse", "Comet", "Atlas",
+              "NovaPrime", "Mythos", "Voyager", "Pulse"
+          ]
 
           name = random.choice(prefixes) + " " + random.choice(suffixes)
           Specialname = random.choice(specialPrefixes) + " " + random.choice(specialSuffixes)

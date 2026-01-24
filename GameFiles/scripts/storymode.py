@@ -353,9 +353,9 @@ def storymode(scene, storyinventory, coins, storyyouPokemon_NAME, storyyourPokem
             input()
             print2(Red+f"{Unknown}: It seems like we have a guest here."+"\n")
             input()
-            print2(Green+ f"{storyNAME}: Who the hell are you? And where is {Devore}?"+"\n")
+            print2(Green+ f"{storyNAME}: Who are you? And where is {Devore}?"+"\n")
             input()
-            print2(Red+f"{Unknown}: It is time to end you intruder..."+"\n")
+            print2(Red+f"{Unknown}: It is time to destroy you..."+"\n")
             input()
             print2(blue+"Oh no oh no oh no, what do I do?? Wait, it seems like I have a bag with me for some reason, lets see..."+"\n")
             input()
@@ -388,16 +388,16 @@ def storymode(scene, storyinventory, coins, storyyouPokemon_NAME, storyyourPokem
                     continue
                   break
               print2(f"You chose {storyyouPokemon_NAME}."+"\n")
-              print2(Red+f"???: Time to {italic}kill{Red} you."+"\n")
+              print2(Red+f"???: Time to {italic}destroy{Red} you."+"\n")
               input()
               result,coins = battle(65658, 'Gastly', '???', storyyourPokemon_DATA, coins)
               input()
               if result == 'win trainer':
-                print2(f"{Unknown}: Well done. I am still gonna kill you with my machete..."+"\n")
+                print2(f"{Unknown}: Well done. I am still gonna trap you in my system for eternity..."+"\n")
                 TRAINERLEVEL = LevelUp(TRAINERLEVEL)
                 input()
               else:
-                print2(f"{Unknown}: Awww, too bad! Gastly, use CURSE on that bast**d..."+"\n")
+                print2(f"{Unknown}: Awww, too bad! Gastly, use CURSE..."+"\n")
                 input()
               scene +=1
           if scene == 3:
@@ -509,7 +509,7 @@ def storymode(scene, storyinventory, coins, storyyouPokemon_NAME, storyyourPokem
                 inputlol = input(white+f">> Enter your choice: ")
                 if inputlol == '1':
                   refreshpageascii()
-                  print2(blue+ f"{Carter}: Hey dummy, you aint leaving without first battling me!\n")
+                  print2(blue+ f"{Carter}: Hey, you are not leaving without battling me first!\n")
                   print2(f"{Devore}: SIGH! Not the second time today!"+"\n")
                   input()
                   break
@@ -528,7 +528,7 @@ def storymode(scene, storyinventory, coins, storyyouPokemon_NAME, storyyourPokem
             result,coins = battle(1, otherPokemon, 'Carter', storyyourPokemon_DATA, coins)
             input()
             if result == 'win trainer':
-              print2(f"{Carter}: NOOOOO! Screw you..."+"\n")
+              print2(f"{Carter}: NOOOOO! you got me..."+"\n")
               TRAINERLEVEL = LevelUp(TRAINERLEVEL)
               input()
               refreshpageascii()
@@ -538,7 +538,7 @@ def storymode(scene, storyinventory, coins, storyyouPokemon_NAME, storyyourPokem
               input()
               refreshpageascii()
   
-            print2(f"{Carter}: Well {storyNAME}. You are and always will be a loser. Smell ya later."+"\n")
+            print2(f"{Carter}: Well, {storyNAME}. Your not very good at this. See you later."+"\n")
             print2(green+f"Carter left."+"\n")
             input()
             print2(f"{Devore}: Anyways, that was quite the battle and definetly better than the previous two trainers that came in earlier today. {storyNAME}, dont let {Carter}'s words get to you. He clearly seems to be in an anger state by the way he acts for his age LOL! Anyways champ, I hope you and {Carter} make Damas Town proud! I have to go now to talk with your father about my ongoing legal battle with the, uhm, don't worry about it, but I believe your father will definetly help me get through this since he is the Pokelawyer in this region! But anyways thats me and my brother's business, you should head to Rocket City next, it is kind of dangerous though so be careful, good luck nephew!"+"\n")
@@ -816,7 +816,7 @@ def storymode(scene, storyinventory, coins, storyyouPokemon_NAME, storyyourPokem
                   input()
                   print2(f"{Unknown}: It seems like we meet again.\n")
                   input()  
-                  print2(f"{storyNAME}: You human piece of sh**, you tried to murder me, why am I here. Listen, send me back to my dimension and leave me alone you or you will regret it Intruder8472.\n")
+                  print2(f"{storyNAME}: “You tried to hurt me. Send me back to my dimension and leave me alone, or Ill defend myself.\n")
                   input()
                   print2(f"{Unknown}: {storyNAME}, please calm down, I am not here to hurt you. Please hear my side of the story.\n")
                   input()
