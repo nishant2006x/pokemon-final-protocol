@@ -2,7 +2,17 @@
 
 ## How to Play
 
-- Simply run `GameFiles/scripts/main.py` on a valid platform/IDE.
+- Simply run `GameFiles/scripts/main.py` on a valid platform/IDE
+- OR Run on Windows (Command Prompt / PowerShell):
+  ```bash
+  cd GameFiles\scripts
+  python main.py
+  ```
+- OR Run on Mac (Terminal):
+  ```bash
+  cd GameFiles/scripts
+  python3 main.py
+  ```
 - Make sure Python 3 is installed.
 - If dependencies are missing, run:
   ```bash
